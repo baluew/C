@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{ 
+   // char quit;  
+    int b = 0;
+    int n = 1;
+    //quit = '\0';
+    while (b <= 10)
+    {
+          b += b;
+          n += 1;
+          
+           printf ("Hello World %n  \n",n);
+    }
+
+    return 0;
+}
+
