@@ -1,0 +1,12 @@
+// программа вывода переданных параметров программе через консоль
+
+#include "stdio.h"
+
+int main(int argn, char * args [])
+{
+int i=0;
+for (i=0; i < argn; i++ )
+puts (args [i]);
+return 0;
+}
+////
